@@ -1,0 +1,22 @@
+/*Lab02-styles.css by Piyawad Namtachan*/
+html{
+	background-color: #c0d1cf;
+}
+header{
+	text-align: center;
+	color: yellow;
+	text-shadow: -1px 0 blue, 0 5px black, 5px 0 black, 0 -1px blue;
+	background-color: #f1a3f7;
+	border: #faff00 1px solid;
+}
+.indexPic, .homePic{
+	float: top;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+
+section pre{
+	font-size: 20px;
+}

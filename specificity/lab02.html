@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="lab02-styles.css">
+	<title>สรุป Lab02</title>
+</head>
+
+<body>
+	<header>
+		<h1>สรุปความเข้าใจเกี่ยวกับ Specificity</h1>
+		<h2>By: Piyawad Namtachan</h2>
+	</header>
+	<section>
+		<div class = "indexPic">
+			<picture >
+			<img src="indexPage.PNG" alt="indexPage.png" >
+			</picture>
+			<pre class="indexCss">
+				ในส่วนของหน้า index.html
+				ที่แสดงหน้าเวปแบบนี้ก็เพราะจะเลือก
+				ไฟล์ CSS ที่ทำการ import ล่าสุด
+				นั่นคือ ไฟล์  style-2.css
+				/* style-2.css */
+				ul li {
+					display: inline-block;
+					list-style: none;
+					padding: 10px;
+				}
+
+				ul li.active a {
+					color: gold;
+				}
+
+				ul li a {
+					text-decoration: none;
+					color: red;
+				}
+
+				ul li.active {
+					background-color: transparent;
+				}
+			</pre>
+		</div>
+		<div class="homePic">
+			<picture>
+			<img src="homePage.PNG" alt="homePage.png">
+			</picture>
+			<pre class="homeCss">
+				ในส่วนของหน้า home.html
+				ที่แสดงหน้าเวปแบบนี้ก็เพราะจะเลือก
+				ไฟล์ CSS ที่ทำการ import ล่าสุด
+				นั่นคือ ไฟล์  style-1.css
+				/* style-1.css */
+				ul li {
+					display: inline-block;
+					list-style: none;
+					padding: 10px;
+				}
+
+				ul li a {
+					text-decoration: none;
+					color: red;
+				}
+
+				ul li.active {
+					background-color: green;
+				}
+			</pre>
+		</div>
+		
+
+		
+	</section>
+
+
+</body>

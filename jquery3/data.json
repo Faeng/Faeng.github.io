@@ -1,0 +1,156 @@
+[
+    {
+        "titleName": "Don't Cry",
+        "album": "World Pop",
+        "artist": "2NE1",
+        "year" : 2011,
+        "genre": "Pop"
+    },
+    {
+        "titleName": "Heart To Heart",
+        "album": "4Minute",
+        "artist": "4Minute",
+        "year" : 2010,
+        "genre": "Pop"
+    },
+    {
+        "titleName": "Someone Like You",
+        "album": "Adele21",
+        "artist": "Adele",
+        "year" : 2012,
+        "genre": "Pop"
+    },
+    {
+        "titleName": "Send My Love(To Your Lover)",
+        "album": "Adele25",
+        "artist": "Adele",
+        "year" : 2015,
+        "genre": "Pop"
+    },
+    {
+        "titleName": "I'm So Sick",
+        "album": "One & Six",
+        "artist": "Apink",
+        "year" : 2018,
+        "genre": "Pop"
+    },
+    {
+        "titleName": "Loser",
+        "album": "Made Series(M)",
+        "artist": "BIGBANG",
+        "year" : 2015,
+        "genre": "Pop"
+    },
+    {
+        "titleName": "So Hot(THE BLACK LABEL Remix)",
+        "album": "So Hot(Cover By BLACKPINK)",
+        "artist": "BLACKPINK",
+        "year" : 2017,
+        "genre": "Rap, hiphop"
+    },
+    {
+        "titleName": "Whistle",
+        "album": "Square One",
+        "artist": "BLACKPINK",
+        "year" : 2016,
+        "genre": "Dance"
+    },
+    {
+        "titleName": "Boombayah",
+        "album": "Square One",
+        "artist": "BLACKPINK",
+        "year" : 2016,
+        "genre": "Dance"
+    },
+    {
+        "titleName": "Playing With Fire",
+        "album": "Square Two",
+        "artist": "BLACKPINK",
+        "year" : 2016,
+        "genre": "Pop"
+    },
+    {
+        "titleName": "Stay",
+        "album": "Square Two",
+        "artist": "BLACKPINK",
+        "year" : 2016,
+        "genre": "Pop"
+    },
+    {
+        "titleName": "Ddu-Du Ddu-Du",
+        "album": "Square Up",
+        "artist": "BLACKPINK",
+        "year" : 2018,
+        "genre": "Rap, hiphop"
+    },
+    {
+        "titleName": "Forever Young",
+        "album": "Square Up",
+        "artist": "BLACKPINK",
+        "year" : 2018,
+        "genre": "Rap, hiphop"
+    },
+    {
+        "titleName": "Really",
+        "album": "Square Up",
+        "artist": "BLACKPINK",
+        "year" : 20108,
+        "genre": "Rap, hiphop"
+    },
+    {
+        "titleName": "See U Later",
+        "album": "Square Up",
+        "artist": "BLACKPINK",
+        "year" : 2018,
+        "genre": "Rap, hiphop"
+    },
+    {
+        "titleName": "As If It's Your Last",
+        "album": "Single",
+        "artist": "BLACKPINK",
+        "year" : 2017,
+        "genre": "Dance"
+    },
+    {
+        "titleName": "Just The Way You Are",
+        "album": "Doo-Woop & Hooligans",
+        "artist": "Bruno Mars",
+        "year" : 2010,
+        "genre": "Pop"
+    },
+    {
+        "titleName": "The Lazy Song",
+        "album": "Doo-Woop & Hooligans",
+        "artist": "Bruno Mars",
+        "year" : 2010,
+        "genre": "Pop"
+    },
+    {
+        "titleName": "Marry You",
+        "album": "Doo-Woop & Hooligans",
+        "artist": "Bruno Mars",
+        "year" : 2010,
+        "genre": "pop"
+    },
+    {
+        "titleName": "Havana",
+        "album": "Havana(Single)",
+        "artist": "Camila Cabello",
+        "year" : 2017,
+        "genre": "pop"
+    },
+    {
+        "titleName": "Never Be The Same",
+        "album": "Never Be The Same(Single)",
+        "artist": "Camila Cabello",
+        "year" : 2017,
+        "genre": "pop"
+    },
+    {
+        "titleName": "I Like It",
+        "album": "Invasion Of Privacy",
+        "artist": "Cardi B",
+        "year" : 2018,
+        "genre": "Miscellaneous"
+    }
+]

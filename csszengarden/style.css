@@ -1,0 +1,184 @@
+/*style.css by Piyawad Namtachan*/
+@import url('https://fonts.googleapis.com/css?family=Itim|Pacifico|Lobster|Montserrat');
+
+
+
+header h1,h2{
+	text-align: center;
+	font-weight: bold;
+	text-shadow: -1px 0 blue, 0 5px black, 5px 0 black, 0 -1px blue;
+}
+header h1{
+	font-family: 'Lobster', cursive;
+	
+	font-size: 50px;
+	margin-bottom: 2px;
+}
+header h2{
+	font-family: 'Pacifico', cursive;
+	margin-top: 5px;
+	font-size: 30;
+}
+
+
+/* basic elements */
+html {
+	margin: 0;
+	padding: 0;
+	}
+
+body { 
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-size: 15px;
+	margin: 0; 
+	padding: 0;
+}
+p{ 
+	margin-top: 0; 
+	text-align: center;
+	}
+h3 { 
+	font-family: 'Itim', cursive;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 10px;
+	color: yellow;
+	letter-spacing: 1px; 
+	margin-bottom: 0;
+	}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #f7f59b;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #D4CDDC;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #e8e7e3;
+	}
+abbr {
+	border-bottom: none;
+	}
+div{
+	display: block;
+}
+
+.page-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("wallpaperff.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.summary p{
+	color: #c9cacc;
+	margin: 10px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+
+
+
+div.preamble{
+	margin-bottom: 5px;
+	margin-left: 5px;
+	margin-right: 10px;
+   	width: 900px;
+   	height: cover;
+}
+div.preamble:hover{
+	color: white;
+	background: rgba(77, 0, 77,0.6);
+}
+div.preamble, .explanation, .participation, .benefits, .requirements, footer{
+	float: left ;
+	width: 900px;
+	height: cover;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: cover;
+	padding-bottom: cover;
+   	padding-left: 10px;
+  	margin-bottom: 3px;
+  	margin-right: 10px;
+}
+
+
+.explanation:hover, .participation:hover, .benefits:hover, .requirements:hover{
+	color: white;
+	background: rgba(77, 0, 77,0.6);
+}
+
+footer .zen-validate-html, .zen-validate-css, .zen-license, .zen-accessibility, .zen-github{
+	
+	background-color: transparent;
+	text-align: center;
+   	float: left;
+  	width: cover;
+  	height: cover;
+  	border: 2px solid red;
+  	border-radius: 5px;
+  	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.sidebar .wrapper { 
+	float right;
+   	float: top;
+   	flex-direction: nowrap;
+    width: cover;
+    height: cover;
+    margin-right: 10px;
+    margin-left: 950px;
+    margin-top: 0px;
+    background: aliceblue;   
+    vertical-align:margin-right;
+    background: rgba(216, 124, 249,0.3);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+ /*animation*/
+.page-wrapper .intro{
+	background:#000 url(star.png) repeat top center;
+  	z-index:0;
+  	
+  	background:transparent url(star.png) repeat top center;
+  z-index:1;
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
+}
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+
+
