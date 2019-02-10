@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>คลังเพลงของฉัน</title>
+    <link rel="stylesheet" href="bulma-0.7.2/css/bulma.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet">
+</head>
+<body>
+    <h1 >คลังเพลงของฉัน</h1>
+    <section class="section">
+    <div class="container"></div>
+        <div class="level">
+            <div class="level-item">
+                <div class="field is-horizontal">
+                    <div class="field-label is-normal">
+                        <label class="label" for="input-text">ค้นหาเพลง: </label>
+                    </div>
+                    <div class="field-body">
+                        <div class="field">
+                        <p class="control">
+                            <input  class="input is-rounded" 
+                                    type="text" id="input-text"
+                                    placeholder="ใส่คำค้นหา">
+                        </p>
+                        </div>
+
+                        <div class="control">
+                            <button id="submit-btn" class="button is-primary">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+        <div id='promptPopUp'>Advanced Search!</div>
+        <div class="control" id="tickRadio">
+              <label class="radio">
+                <input type="radio" name="music" value="title">
+                Title
+              </label>
+              <label class="radio">
+                <input type="radio" name="music" value="album">
+                Album
+              </label>
+              <label class="radio">
+                <input type="radio" name="music" value="artist">
+                Artist
+              </label>
+              <label class="radio">
+                <input type="radio" name="music" value="year">
+                Year
+              </label>
+              <label class="radio">
+                <input type="radio" name="music" value="genre">
+                Genre
+              </label>
+        </div>
+
+        <div class= "table-container">
+            <div class="table is-responsive">
+                <table id="music_table">
+                    <tr>
+                        <th>Title</th>
+                        <th>Album</th>
+                        <th>Artist</th>
+                        <th>Year</th>
+                        <th>Genre</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    <footer><div></div>
+        <div id="reference">ที่มา:chiasenhac.vn</div>
+    </footer>
+    </section>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="myscript.js"></script>
+    <script>
+        $("body").css("font-family","Itim");
+    </script>
+    <script>//animation
+    animate_loop = function animate_loop(){
+        $( "h1" ).animate({
+            opacity: 0.1, 
+
+          }, 1000,function(){
+               $( "h1").animate({ opacity: 1},500)
+                 animate_loop();
+        } );    
+        }
+
+        animate_loop();</script>>
+    
+</body>
+</html>
