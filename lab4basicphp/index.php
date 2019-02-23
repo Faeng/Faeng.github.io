@@ -1,45 +1,6 @@
 <?php 
    $nameErr = $emailErr = "";
   $name = $email ="";
- ?>
-
-<!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" href="mystyle.css" type="text/css">
-<Style>
-  .error {color: #FF0000;}
-</Style>
-<title>Expense monthly</title>
-</head>
-<body>
-  <h1>Expense Calculator for monthly</h1>
-  <form method="POST" enctype="multipart/form-data"><br>
-    Name: 
-    <input type="text" name="name" placeholder="What is your name?">
-    <span class="error">* <?php echo $nameErr;?></span>
-    <br><br>
-    Email: 
-    <input type="text" name="email" placeholder="Your email">
-    <span class="error">* <?php echo $emailErr;?></span>
-    
-    <br><br>
-    Upload your Image here. Size must not more than 10MB.
-      <br>
-      <input type="file" name="file"> <br><br>
-      Upload your CSV file for calculate. <br>
-      <input type="file" name="filecsv"><br>
-      <a href="download.php?file=expense.csv">Click to Download a templete fille</a>
-
-      
-      <br><br>
-      <input type="submit" name="submit" value="Submit">
-  
-    </form> 
-
-
-<?php
-
   if(isset($_POST['name'])&&isset($_POST['email'])){
      if (empty($_POST["name"])) {
     $nameErr = "Name is required";
@@ -220,5 +181,3 @@ function test_input($data) {
 }
 
 ?>
-</body>
-</html>
